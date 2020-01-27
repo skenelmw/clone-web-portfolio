@@ -1,0 +1,30 @@
+
+h1 {
+    color: rgb(0,204,255);
+}
+.projects {
+display: grid;
+min-height: 500px;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+.projects > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pro > img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.pro > h3 {
+    padding: 5%;
+}
+.pro1 {background: red;}
+.pro2 {background: blue;}
+.pro3 {background: green;}
+.pro4 {background: yellow;}
+.pro5 {background: pink;}
+.pro6 {background: orange;}
